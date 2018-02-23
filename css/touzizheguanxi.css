@@ -1,0 +1,436 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-29 22:35:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-01 22:03:03
+*/
+
+@import url('base.css');
+header
+{
+	width: 100%;
+	height: 64px;
+	margin: 20px 0;
+}
+.header-Box
+{
+	width: 1002px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header-Left
+{
+	width: 40%;height: 100%;
+	
+	padding:3px; float: left;
+}
+.header-logo
+{
+	float: left;
+	width:100px;height: 80px;
+}
+.header-logo img
+{
+	display: block;width: 80%;
+	height: 80%;float: left;
+}
+.header-Text
+{
+}
+.header-Text h1
+{  color: #003A7B;
+   font-size: 22px;letter-spacing: 1px;
+   font-weight: 600;padding-top: 5px;
+}
+.header-Text h2
+{   font-weight: 600;color: #003A7B;
+   font-size: 12px;line-height: 24px;
+}
+.header-Right
+{
+	padding-left: 45px;
+	width: 60%;
+	padding-top: 22px;
+	height: 64px;
+	float: left;
+}
+.header-time
+{
+	float: left;
+	padding-top: 8px;
+}
+.header-aside
+{
+	float: left;
+	margin-left: 18px;
+	padding-top: 8px;
+	margin-right: 5px;
+}
+.header-aside li
+{   float: left;
+}
+.header-aside a:hover
+{
+  color: #003A7B;
+}
+.header-aside li a
+{   border-right: 1px solid #000;
+	font-size: 12px;padding:0 8px;
+	 color: #000;
+	 line-height: 25px;
+}
+.header-aside li:last-child a
+{
+   border-right: 0px solid #000;
+}
+.sosuo
+{
+	height: 37px;
+	width: 216px;
+	float: left;
+	box-sizing: content-box;
+	padding-bottom: 20px;
+}
+.iconbox:hover
+{transition: 0.5s;
+  background: #333;
+}
+.sosuoBox
+{
+	margin-left: 17px;
+	width: 152px;
+	height: 36px;
+	border: none;
+	box-sizing: content-box;
+	outline: none;
+	border: 1px solid #B1B1B1;
+}
+.iconbox
+{
+	float: right;
+	background: #00dde8;
+	width: 45px;
+	height: 38px;
+	padding-right: 10px;
+	padding-left: 15px;
+}
+
+
+/* bannerÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ */
+.banner-Box1
+{
+	width: 100%;height: 300px;
+}
+.banner1
+{   position: relative; 
+	width: 100%;height:300px;
+	margin: 0 auto;
+	background: url('../img/1307273.jpg')no-repeat
+	center top;
+	/* background: url('../img/timg.jpg') no-repeat center center;
+	background-size: 1002px;height: 261px; */
+}
+/* bannerÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸ */
+/* asideÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ */
+aside
+{
+	margin-top: 17px;
+	width: 100%;
+	height: 30px;
+	box-sizing: content-box;
+}
+.asideBox
+{
+	display: flex;
+	justify-content: space-between;
+	width: 1002px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0 25px;
+	border-top: 1px solid #DEDEDE;
+	padding-bottom: 10px;
+}
+.asideBox li
+{   width: auto;height: 30px;
+	float: left;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 13px;line-height: 25px;
+	
+}
+.asideBox li:hover a{
+	border-bottom: 2px solid skyblue;
+	color: skyblue;
+}
+
+.asideBox li a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 2px 20px;
+	color: #000;
+	text-align: center;
+}
+.asideBox li a:first-child
+{
+	padding-left: 19px;
+	padding-right: 14px;
+}
+.asideBox span
+{   width: 2px;height: 11px;
+	align-self:  center;
+	 background: #f9ffff;
+}
+
+.asideBox li:first-child
+{
+	letter-spacing: 9px;
+	padding-right: 8px;
+}
+.asiderbox-Bottom
+{
+	width: 1002px;
+	height: 30px;
+	margin: 5px auto;
+	background: #EFEFEF;
+}
+.biaoqian1
+{
+	width: 1002px;height: 20px;
+	margin: 0 auto;
+}
+.biaoqian1 p
+{ font-size: 15px;font-weight: bold;
+  color: #666666;margin: 10px 0;
+}
+.biaoqian1 p:first-child
+{
+  float: left;
+}
+.biaoqian1 p:last-child
+{
+  float: right;font-size: 13px;
+  padding-right: 10px;font-weight: 500;
+}
+.biaoqian1 p:last-child a:first-child
+{
+  color: skyblue;
+}
+.biaoqian1 p:last-child a:last-child
+{
+  color: #888;
+}
+.biaoqian1 p:last-child a:last-child:hover
+{
+  color: #333;
+}
+nav{width: 100%;height: auto;}
+.nav-header
+{   border-top: 1px dotted #888;
+	width: 1002px;height: 33px;
+	padding: 0px 0 22px 0;
+	text-align: center;color: #fff;
+	font-size: 14px;font-weight: 500;
+	line-height: 33px;
+	background: url('../img/1307387.png') no-repeat 
+	top center;
+	background-size: 133px 33px;
+    margin: 0 auto;
+    margin-top: 20px;margin-bottom: 10px;
+}
+.navbox
+{
+	width: 1001px;height: 60px;
+	margin: 0 auto;margin-top: 10px;
+}
+.navbox1
+{
+	width: 100%;height: 100%;
+	display: flex;padding: 10px;
+	justify-content: space-between;
+}
+.box
+{
+	width: calc(100% / 3);height: 100%;
+	background: skyblue;text-align: center;
+	line-height: 220%;display: block;
+	color: #fff;    font-size: 16px;
+	cursor: pointer;margin-right: 30px;
+}
+
+.navbox1 .box1{
+	background: #E7E7E7;color: #000;
+}
+
+.navbox1 .box:last-child
+{
+	margin-right: 0px;
+
+}
+.Liebiao
+{
+	width: 1001px;height: auto;
+	margin: 0 auto;
+}
+.geduan
+{
+	width: 1001px;height: 30px;
+	margin: 0 auto;margin-top: 40px;
+	border-top: 1px dotted #d9d9d9
+}
+.Liebiao li
+{
+	margin-top: 20px;width: 100%;
+	height: 60px;
+	border-bottom: 1px dotted #d9d9d9;
+}
+.Liebiao li p
+{
+	color: #00AAE8;
+	font-size: 17px;
+	line-height: 0px;
+}
+.Liebiao li span
+{
+	color: #888;font-size: 12px;
+
+}
+.Liebiao li:hover span
+{
+	color: #000;
+
+}
+.pages
+{   
+	width: 1001px;height: 40px;
+	margin: 0 auto;margin-top: 20px;
+	margin-bottom: 140px;
+}
+.pages-num
+{
+	float: right;font-size: 14px;
+	color: #666;
+}
+.pages-num span
+{   display: block;
+	float: left;line-height: 26px;
+}
+.pages-num span:first-child
+{   margin-right: 10px;
+}
+.pages-num span:last-child
+{   margin-left: 10px;
+}
+.pages-num li
+{   float: left;
+	width: auto;height: 26px;
+	background: #E7E7E7;color: #333;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;text-align: center;
+	padding: 0 10px;line-height: 23px;
+	margin: 0 2px;font-size: 12px;
+}
+#num1
+{
+  background: #00AAE9;
+  color: #fff;
+}
+
+footer
+{
+	width: 100%;
+	height: 86px;
+	background: #EFEFEF;
+}
+.footerbox
+{
+	border-top: 1px solid #CACACA;
+	width: 1001px;
+	height: 86px;
+	margin: 0 auto;
+	/* padding-top: 6px; */
+	margin-top: 12px;
+}
+.footertell
+{
+	width: 100%;
+	height: 33px;
+	background: #EFEFEF;
+	line-height: 33px;
+	/* margin-top: 5px; */
+	border-bottom: 2px solid #D9DAD5;
+}
+.footertell span
+{
+	float: left;
+	font-size: 12px;
+	padding-left: 25px;
+}
+.footertell-pic
+{
+	float: left;
+	background: rgba(158, 158, 158, 0.62);
+	width: 91px;
+	height: 33px;
+	border-bottom: 3px solid #03A9F4;
+	line-height: 33px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.footertell-pic img
+{
+ display: block;width: 62px;height: 29px;
+ margin: 0 auto;
+}
+.ulli li
+{   display: block;float: left;
+	font-size: 12px;text-align: left;
+   padding-top: 5px;line-height: 30px;
+   color: #000;padding: 0  4px;
+}
+.ulli li:hover
+{
+   color: skyblue;cursor: pointer;
+}
+.ulli li a:hover
+{
+   color: skyblue;
+}
+.ulli li a
+{
+	color: #000;
+}
+
+
+.footerbox-box
+{
+	width: 1001px;
+	height: 29px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.footerbox p a
+{
+	color: #333;
+}
+.footerbox p a:hover
+{
+	color: #FF3300;
+}
+#span1
+{   line-height: 30px;display: block;
+	font-size: 12px;text-align: right;
+    float: right;
+}
+.span1 img
+{
+  margin-top: 5px;
+}
+.span1 a{
+	color: #333;
+}
+.span1 a:hover{
+	color: #FF3300;
+}
